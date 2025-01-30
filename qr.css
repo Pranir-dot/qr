@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color:whitesmoke;
+}
+.qrcode {
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
+  height: 500px;
+  width: 350px;
+  margin: 100px 250px;
+  background-color:#f1dac4;
+  border-radius: 10%;
+  padding: 15px;
+}
+.qrcode .image {
+  height: 300px;
+  width: 100%;
+  background-color: blue;
+  border-radius: 10%;
+  text-align: center;
+}
+.qrcode img {
+  height: 71%;
+  width: 71%;
+  margin:40px;
+  border-radius: 5%;
+}
+.qrcode .about{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.qrcode .heading h4{
+    font-size: 22px;
+    font-weight: 580;
+}
+
+.qrcode .description{
+    padding: 10px;
+    margin: 8px;
+    text-align: center;
+}
+.qrcode .description p{
+    font-size: 18px;
+}
